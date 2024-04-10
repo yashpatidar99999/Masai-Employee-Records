@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: #26639C;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+
+}
+
+form{
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+
+}
+
+input,select{
+    padding: 0.5rem;
+    margin:  0.5rem 0;
+    outline: none;
+    width: 100%;
+    border: 1px solid black;
+
+
+}
+label{
+    font-weight: bold;
+}
+input[type="submit"] {
+    background-color: #26639C;
+    color: white;
+    border-radius: 20px;
+}
+
+tr th{
+    padding: 1rem;
+    background-color: #26639C;
+    color: white;
+
+}
